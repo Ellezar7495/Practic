@@ -1,0 +1,307 @@
+@font-face {
+    font-family: "Mont Bold";
+    src: url("fonts/Montserrat-SemiBold.ttf");
+}
+@font-face {
+    font-family: "Mont Med";
+    src: url("fonts/Montserrat-Medium.ttf");
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+}
+.app-header {
+    width: 100%;
+    height: 1000px;
+    background: url(img/header_background.png) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_block {
+    width: 1200px;
+    height: 725px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header_block_logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.header_block_navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin-bottom: 140px;
+}
+.header_block_navbar_links {
+    width: 550px;
+    font-family: 'Mont Med';
+    font-size: 20px;
+    color: #202020;
+    display: flex;
+    justify-content: space-between;
+}
+.header_block_navbar_links a {
+    text-decoration: none;
+    color: #202020;
+}
+.header_block_navbar_links a:hover {
+    text-decoration: none;
+    color: #ABDCDF;
+}
+.header_block_title {
+    height: 120px;
+    font-family: 'Mont Bold';
+    font-size: 25px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.header_block_title span {
+    text-align: center;
+    width: 560px;
+}
+.arrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+}
+.app-main {
+    width: 100%;
+    height: 1230px;
+    display: flex;
+    justify-content: center;
+}
+.main_block {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.app-title {
+    font-family: 'Mont Bold';
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 90px;
+}
+.main_block_images {
+    width: 100%;
+    height: 760px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main_block_images_img {
+    box-sizing: border-box;
+    width: 380px;
+    height: 380px;
+    background-color: #ABDCDF;
+}
+.main_block_images_img:hover img{
+    
+    display: none;
+    
+
+}
+.main_block_description {
+    width: 100%;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    font-family: 'Mont Med';
+    font-size: 20px;
+    color: #202020;
+}
+.main_block_description span {
+    text-align: center;
+    width: 975px;
+}
+.app-doors {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.doors_block {
+    width: 1155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.doors_block_columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.doors_block_column {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 355px;
+}
+.doors_block_column_text {
+    max-width: 355px;
+    background-color: #FFFFFF;
+    font-family: 'Mont Med';
+    font-size: 20px;
+    color: #202020;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    margin-top: 45px;
+}
+.doors_block_column_text_link {
+    max-width: 355px;
+    background-color: #FFFFFF;
+    font-family: 'Mont Med';
+    font-size: 20px;
+    color: #202020;
+    padding: 20px 30px 20px 30px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.doors_block_column_text_link img {
+    margin-left: 30px;
+}
+
+.window {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 750px;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.windows_img {
+    height: 755px;
+}
+.app-about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.about_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about_block_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+    width: 270px;
+    margin-bottom: 90px;
+}
+.about_block_inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 740px;
+}
+.about_block_inputs_names {
+    display: flex;
+    height: 110px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about_block_inputs_names_name, .about_block_inputs_names_email {
+    width: 350px;
+    height: 45px;
+    background-color: #FFFFFF;
+    color: #202020;
+    font-family: 'Mont Med';
+    font-size: 20px;
+    padding-left: 10px;
+}
+.about_block_inputs_text_letter {
+    width: 350px;
+    height: 106px;
+    background-color: #FFFFFF;
+    color: #202020;
+    font-family: 'Mont Med';
+    font-size: 20px;
+    padding-left: 10px;
+    
+}
+.about_block_button {
+    width: 200px;
+    height: 45px;
+    font-family: 'Mont Med';
+    font-size: 20px;
+    background-color: #ABDCDF;
+    color: #202020;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.app-footer {
+    width: 100%;
+    height: 900px;
+    background: url(img/footer_background.png) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_block {
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer_block_navbar {
+    width: 100%;
+    height: 300px;
+    background-color: #FFFFFF;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_block_navbar_contacts {
+    color: #202020;
+    font-family: 'Mont Med';
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+}
+.footer_block_navbar_links {
+    height: 185px;
+    font-family: 'Mont Med';
+    font-size: 20px;
+    color: #202020;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.footer_block_navbar_links a {
+    text-decoration: none;
+    color: #202020;
+}
+.footer_block_navbar_links a:hover {
+    text-decoration: none;
+    color: #ABDCDF;
+}
+
